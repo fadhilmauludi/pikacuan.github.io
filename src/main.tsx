@@ -6,7 +6,7 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename:"/pikacuan.online/">
+    <BrowserRouter basename="/pikacuan.online/">
       <App />
     </BrowserRouter>
   </StrictMode>
