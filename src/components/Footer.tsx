@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Instagram, Twitter } from 'lucide-react';
+import { Mail, Instagram, Music2Icon, MessageCircleCodeIcon } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 md:space-x-3 mb-3 md:mb-4">
-              <img src="/Pikacuan.png" alt="Pikacuan" className="w-10 md:w-12 h-10 md:h-12" />
+              <img src="./Pikacuan.png" alt="Pikacuan" className="w-10 md:w-12 h-10 md:h-12 rounded-full" />
               <span className="text-xl md:text-2xl font-bold text-white">Pikacuan</span>
             </div>
             <p className="text-sm md:text-base text-slate-400 mb-4 md:mb-6 leading-relaxed max-w-md">
@@ -15,15 +15,15 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2 md:space-x-4">
               <a
-                href="https://discord.gg/pikacuan"
+                href="https://discord.gg/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-800 p-2 md:p-3 rounded-lg hover:bg-amber-600 transition-colors"
               >
-                <MessageCircle className="w-4 md:w-5 h-4 md:h-5" />
+                <MessageCircleCodeIcon className="w-4 md:w-5 h-4 md:h-5" />
               </a>
               <a
-                href="https://instagram.com/pikacuan"
+                href="https://instagram.com/pikacuan.id"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-800 p-2 md:p-3 rounded-lg hover:bg-amber-600 transition-colors"
@@ -31,15 +31,15 @@ export default function Footer() {
                 <Instagram className="w-4 md:w-5 h-4 md:h-5" />
               </a>
               <a
-                href="https://twitter.com/pikacuan"
+                href="https://www.tiktok.com/@pikacuan.id"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-800 p-2 md:p-3 rounded-lg hover:bg-amber-600 transition-colors"
               >
-                <Twitter className="w-4 md:w-5 h-4 md:h-5" />
+                <Music2Icon className="w-4 md:w-5 h-4 md:h-5" />
               </a>
               <a
-                href="mailto:hello@pikacuan.com"
+                href="mailto:pikacuan.invest@gmail.com"
                 className="bg-slate-800 p-2 md:p-3 rounded-lg hover:bg-amber-600 transition-colors"
               >
                 <Mail className="w-4 md:w-5 h-4 md:h-5" />
@@ -65,32 +65,12 @@ export default function Footer() {
                   Testimonials
                 </a>
               </li>
-              <li>
-                <a href="#faq" className="hover:text-amber-400 transition-colors">
-                  FAQ
-                </a>
-              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-bold text-sm md:text-base mb-3 md:mb-4">Support</h4>
-            <ul className="space-y-2 md:space-y-3 text-sm md:text-base">
-              <li>
-                <a href="#" className="hover:text-amber-400 transition-colors">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-amber-400 transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-amber-400 transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
+            <ul className="space-y-2 md:space-y-3 text-sm md:text-base">                
               <li>
                 <a href="mailto:support@pikacuan.com" className="hover:text-amber-400 transition-colors">
                   Contact Us
